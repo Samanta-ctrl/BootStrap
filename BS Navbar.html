@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">  <!-- meta tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\CSS\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\CSS\mdb.css">
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\style.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+	
+	<style type="text/css">
+		.dropdown-item:hover
+		{
+			background: linear-gradient(45deg,darkslategray,darkred);
+		}
+		
+	</style>
+	<title>Bootstrap Navbar</title>
+</head>
+<body>
+	<h1 class="bg-dark text-white">Navbars</h1>
+	<p>Navbar is navigation header that is placed on the top of the page. with bootstrap a navigation bar can be expanded or collapse.</p>
+	<div class="container mt-5">
+
+<!--Simple navbar -->
+		<nav class="navbar bg-info navbar-dark"> <!--base class of navbar -->
+			<div class="container">
+				<a href="#" class="navbar-brand"><i class="fa fa-snowflake-o pr-2"></i>Jspiders</a>
+			</div>
+		</nav>
+		<hr>
+
+<!--navbar links -->
+		<nav class="navbar bg-primary navbar-dark navbar-expand-lg"> <!--base class of navbar -->
+			<div class="container">
+				<a href="#" class="navbar-brand"><i class="fa fa-snowflake-o pr-2"></i>Jspiders</a>
+				<div>
+					<ul class="navbar-nav">
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home p-2"></i>Home</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-graduation-cap p-2"></i>Courses</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-id-badge p-2"></i>About Us</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-cog p-2"></i>Services</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<hr><hr>
+
+<!--navbar responsiveness on icons -->
+		<nav class="navbar bg-success navbar-dark navbar-expand-sm"> <!--base class of navbar -->
+			<div class="container">
+				<a href="#" class="navbar-brand"><i class="fa fa-snowflake-o pr-2"></i>Jspiders</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links"><i class="navbar-toggler-icon"></i></button>
+				<div class="collapse navbar-collapse" id="links">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home p-2"></i>Home</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-graduation-cap p-2"></i>Courses</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-id-badge p-2"></i>About Us</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-cog p-2"></i>Services</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<hr><hr>
+
+		<!--navbar with forms -->
+		<nav class="navbar bg-secondary navbar-dark navbar-expand-sm"> <!--base class of navbar -->
+			<div class="container">
+				<a href="#" class="navbar-brand"><i class="fa fa-snowflake-o pr-2"></i><h1>Jspiders</h1></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links"><i class="navbar-toggler-icon"></i></button>
+				<div class="collapse navbar-collapse" id="links">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home p-2"></i>Home</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-graduation-cap p-2"></i>Courses</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-id-badge p-2"></i>About Us</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-cog p-2"></i>Services</a></li>
+					</ul>
+				</div>
+				<form class="form-inline">
+					<input type="text" name="t1" placeholder="Search" class="form-control">
+					<input type="submit" name="t1" value="Submit" class="btn btn-outline-white btn-sm">
+				</form>
+			</div>
+		</nav>
+		<hr><hr>
+
+		<!--navbar with signin and login -->
+		<nav class="navbar bg-danger navbar-dark navbar-expand-sm"> <!--base class of navbar -->
+			<div class="container">
+				<a href="#" class="navbar-brand"><i class="fa fa-snowflake-o pr-2"></i><h1>Jspiders</h1></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links"><i class="navbar-toggler-icon"></i></button>
+				<div class="collapse navbar-collapse" id="links">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home p-2"></i>Home</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-graduation-cap p-2"></i>Courses</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-id-badge p-2"></i>About Us</a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-cog p-2"></i>Services</a></li>
+					</ul>
+				</div>
+				<button class="btn btn-outline-dark"><span class="fa fa-user user fa-1x pr-2"></span>Signup</button>
+				<button class="btn btn-outline-dark"><span class="fa fa-sign-in user pr-2"></span>Login</button>
+			</div>
+		</nav>
+		<hr><hr>
+
+		<!--navbar with dropdown -->
+		<nav class="navbar bg-warning navbar-dark navbar-expand-sm"> <!--base class of navbar -->
+			<div class="container">
+				<a href="#" class="navbar-brand"><i class="fa fa-snowflake-o pr-2"></i><h1>Jspiders</h1></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links"><i class="navbar-toggler-icon"></i></button>
+				<div class="collapse navbar-collapse" id="links">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home p-2"></i>Home</a></li>
+						
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-id-badge p-2"></i>About Us</a></li>
+						
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-cog p-2"></i>Services</a></li>
+						
+						<li class="nav-item dropdown"><a href="#" class="nav-link" data-toggle="dropdown"><i class="fa fa-graduation-cap p-2"></i>Courses<i class="fa fa-caret-down"></i></a>
+						
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">HTML</a>
+								<a href="#" class="dropdown-item">CSS</a>
+								<a href="#" class="dropdown-item">JAVA</a>
+								<a href="#" class="dropdown-item">PHP</a>
+								<a href="#" class="dropdown-item">C</a>
+								<a href="#" class="dropdown-item">PYTHON</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<button class="btn btn-outline-light"><span class="fa fa-user user fa-1x pr-2"></span>Signup</button>
+				<button class="btn btn-outline-light"><span class="fa fa-sign-in user pr-2"></span>Login</button>
+			
+			</div>
+		</nav>
+	</div>
+
+<div style="margin-bottom: 500px;"></div>
+
+	<!--Script files -->
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\jquery.js"></script>
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\popper.js"></script>
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\bootstrap.js"></script>
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\mdb.js"></script>
+</body>
+</html>

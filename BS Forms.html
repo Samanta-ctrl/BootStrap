@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">  <!-- meta tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\CSS\bootstrap.css">
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\CSS\mdb.css">
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\style.css">
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+
+
+	<title>Bootstrap Forms</title>
+	<style type="text/css">
+		.icon
+		{
+			
+			border:0px solid darkslategrey; 
+			background: none;
+			margin-left: 170px;
+
+		}
+		.icon .fas
+		{
+			font-size: 120px;
+			border:5px solid darkslategrey;
+			text-align: center;
+			box-shadow: 0 0 10px black;
+
+			background-color: darkred;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="bg-dark text-white">Bootstrap Forms</h1>
+	<div class="container mt-5"> <!-- mt= margin top -->
+		<div class="row">
+			<div class="col-md-6">
+				<div class="icon">
+					<span class="fas fa-user-circle ml-5"></span>
+				</div>
+				<form class="bg-warning p-3 text-white">
+
+					<div class="form-group mt-5">
+						<label>Name<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="text" name="uname" class="form-control" placeholder="Enter Name">
+					</div>
+					<div class="form-group">
+						<label>Email<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="Email" name="email" class="form-control" placeholder="Enter Email">
+						<small>Your Email Should not be shared with anyone</small>
+					</div>
+					<div class="form-group">
+						<label>Password<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="Password" name="pw" class="form-control" placeholder="Enter Password">
+					</div>
+					<div class="form-group">
+						<label>Confirm Password<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="Password" name="cpw" class="form-control" placeholder="Enter Confirm Password">
+					</div>
+					<div class="form-group">
+						<label>Messages</label>
+						<textarea class="form-control rows=4">
+						</textarea>
+					</div>
+					<div class="form-group">
+						<label>Select City<span style="color: red;font-size: 20px"> *</span></label>
+						<select class="form-control">
+							<option>...select...</option>
+							<option>Delhi</option>
+							<option>Mumbai</option>
+							<option>Kolkata</option>
+							<option>Pune</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label>Upload Document<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="File" name="file" class="form-control-file">
+					</div>
+					<button class="btn btn-outline-dark ml-5">Submit</button>
+						
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+<div style="margin-bottom: 500px"></div>
+
+	<!--Script files -->
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\jquery.js"></script>
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\popper.js"></script>
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\bootstrap.js"></script>
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\mdb.js"></script>
+</body>
+</html>
