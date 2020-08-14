@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">  <!-- meta tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\CSS\bootstrap.css">
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\CSS\mdb.css">
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\style.css">
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+	<title>Bootstrap Online form</title>
+
+</head>
+<body>
+	<h1 class="bg-warning text-white text-center">Online Job Application</h1>
+	
+	<div class="container mt-1"> <!-- mt= margin top -->
+		<div class="row">
+			<div class="col-md-8">
+				<form class="bg-info p-3 text-white">
+
+					<div class="form-group">
+						<label class="text-dark">Name<span style="color: red;font-size: 20px"> *</span></label><br>
+						<div class="form-check-inline">
+							<input type="text" name="uname" class="form-control" style="padding-right: 160px" placeholder="First Name">
+							<input type="text" name="uname" class="form-control ml-5"  style="padding-right: 160px" placeholder="Last Name">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="text-dark">Father's Name<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="text" name="uname" class="form-control" placeholder="Enter Father's Name">
+					</div>					
+					
+					<div class="form-group">
+						<label class="text-dark">Email<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="Email" name="email" class="form-control" placeholder="Enter Email">
+						<small>Your Email Should not be shared with anyone</small>
+					</div>
+					
+					<div class="form-group">
+						<label class="text-dark">Re-enter Email<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="email" name="email" class="form-control" placeholder="Re-Enter Email">
+					</div>
+					
+					<div class="form-group">
+						<label class="text-dark">Current Address<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="text" name="text" class="form-control" placeholder="Enter Current Address">
+					</div>
+					
+					<div class="form-group">
+						<label class="text-dark">Permanent Address<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="text" name="text" class="form-control" placeholder="Enter Permanent Address">
+					</div>
+					
+					<div class="form-group">
+						<label class="text-dark">Select City<span style="color: red;font-size: 20px"> *</span></label>
+						<select class="form-control">
+							<option>...select...</option>
+							<option>Delhi</option>
+							<option>Mumbai</option>
+							<option>Kolkata</option>
+							<option>Pune</option>
+						</select>
+					</div>
+					
+					<div class="form-group">
+						<label class="text-dark">Mobile Number<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="Number" name="Number" class="form-control" placeholder="Enter your Mobile Number">
+					</div>
+					
+					<div class="form-group">
+						<label class="text-dark">Date Of Birth<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="Date" name="Date" class="form-control" placeholder="Enter your Date Of Birth">
+					</div>
+					
+					<div class="form-group">
+						<label class="text-dark">Gender<span style="color: red;font-size: 20px"> *</span></label>
+						<div class="form-check-inline ml-5">
+  							<!-- <label class="form-check-label"> -->
+    						<input type="radio" class="form-check-input" name="optradio">Male
+  							</label>
+						</div>
+						<div class="form-check-inline">
+  							<!-- <label class="form-check-label"> -->
+    						<input type="radio" class="form-check-input" name="optradio">Female
+  							</label>
+						</div>
+						<div class="form-check-inline">
+  							<!-- <label class="form-check-label"> -->
+    						<input type="radio" class="form-check-input" name="optradio">Other
+  							</label>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<div>
+							<label class="text-dark">Language Known<span style="color: red;font-size: 20px"> *</span></label>	
+							<div class="form-check-inline ml-5">
+    							<input type="checkbox" class="form-check-input">Bengali
+ 				 				</label>
+							</div>
+							<div class="form-check-inline">
+    							<input type="checkbox" class="form-check-input">English
+  								</label>
+							</div>
+							<div class="form-check-inline">
+    							<input type="checkbox" class="form-check-input">Hindi
+  								</label>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div>
+							<label class="text-dark">Hobbies</label>	
+							<div class="form-check-inline ml-5">
+							  	<label class="form-check-label">
+    							<input type="checkbox" class="form-check-input">Singing
+ 				 				</label>
+							</div>
+							<div class="form-check-inline">
+  								<label class="form-check-label">
+    							<input type="checkbox" class="form-check-input">Dancing
+  								</label>
+							</div>
+							<div class="form-check-inline">
+  								<label class="form-check-label">
+    							<input type="checkbox" class="form-check-input">Drawing
+  								</label>
+							</div>
+							<div class="form-check-inline">
+  								<label class="form-check-label">
+    							<input type="checkbox" class="form-check-input">Coding
+  								</label>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="text-dark">Nationality<span style="color: red;font-size: 20px"> *</span></label>
+						<select class="form-control">
+							<option>...select...</option>
+							<option>American</option>
+							<option>Chinese</option>
+							<option>Europian</option>
+							<option>Indian</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<label class="text-dark">About Yourself</label>
+						<textarea class="form-control rows=4">
+						</textarea>
+						<small>Maximum of 3000 characters</small>
+					</div>
+					
+					<div class="form-group">
+						<label class="text-dark">Upload Document<span style="color: red;font-size: 20px"> *</span></label>
+						<input type="File" name="file" class="form-control-file">
+					</div>
+					<div class="ml-5">
+						<input type="checkbox" name="chkbx">  I am hereby declared that all the above information is true as per my knowledge.
+					</div>
+					<br><br>
+					<div>
+						<button class="btn btn-danger ml-5" >Submit</button>
+						<button class="btn btn-warning ml-5">Reset</button>
+					</div>
+					
+						
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+<div style="margin-bottom: 500px"></div>
+
+	<!--Script files -->
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\jquery.js"></script>
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\popper.js"></script>
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\bootstrap.js"></script>
+	<script src="C:\Users\Soumen pc\Desktop\Web Technology\Bootstrap\JS\mdb.js"></script>
+</body>
+</html>
